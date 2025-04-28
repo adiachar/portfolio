@@ -74,7 +74,7 @@ const Projects = () => {
             <div className="card h-100 shadow-sm">
               <div className="card-body p-4">
                 <div className="d-flex justify-content-between align-items-start mb-3">
-                  <h4 className="mb-0">Guest Accommodation Management System</h4>
+                  <h4 className="mb-0">Guestify</h4>
                   <div className="d-flex gap-2">
                     <a 
                       href="https://github.com/adiachar/Guestify" 
@@ -84,6 +84,15 @@ const Projects = () => {
                     >
                       <FaGithub className="me-2" />
                       GitHub
+                    </a>
+                    <a 
+                      href="https://guestify-1.onrender.com" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="btn btn-sm btn-outline-primary"
+                    >
+                      <FaExternalLinkAlt className="me-2" />
+                      Live Demo
                     </a>
                   </div>
                 </div>
